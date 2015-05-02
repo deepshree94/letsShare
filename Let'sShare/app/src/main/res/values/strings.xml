@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lets Share</string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_redirect">Redirect</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_coupons">CouponsActivity</string>
+    <string name="title_activity_add_coupons">AddCouponsActivity</string>
+    <string name="title_activity_view_coupons">ViewCouponsActivity</string>
+    <string name="title_activity_friends">FriendsActivity</string>
+    <string name="title_activity_add_friends">AddFriendsActivity</string>
+    <string name="title_activity_view_friends">ViewFriendsActivity</string>
+    <string name="title_activity_view_friend_requests">ViewFriendRequestsActivity</string>
+    <string name="title_activity_view_coupon_requests">ViewCouponRequestsActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_view_notifictaions">ViewNotifictaionsActivity</string>
+
+</resources>

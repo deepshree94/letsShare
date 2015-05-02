@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acds.letsshare" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name=".RedirectActivity"
+            android:label="@string/title_activity_redirect" >
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".CouponsActivity"
+            android:label="@string/title_activity_coupons" >
+        </activity>
+        <activity
+            android:name=".AddCouponsActivity"
+            android:label="@string/title_activity_add_coupons" >
+        </activity>
+        <activity
+            android:name=".ViewCouponsActivity"
+            android:label="@string/title_activity_view_coupons" >
+        </activity>
+        <activity
+            android:name=".FriendsActivity"
+            android:label="@string/title_activity_friends" >
+        </activity>
+        <activity
+            android:name=".AddFriendsActivity"
+            android:label="@string/title_activity_add_friends" >
+        </activity>
+        <activity
+            android:name=".ViewFriendsActivity"
+            android:label="@string/title_activity_view_friends" >
+        </activity>
+        <activity
+            android:name=".ViewFriendRequestsActivity"
+            android:label="@string/title_activity_view_friend_requests" >
+        </activity>
+        <activity
+            android:name=".ViewCouponRequestsActivity"
+            android:label="@string/title_activity_view_coupon_requests" >
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name=".ViewNotifictaionsActivity"
+            android:label="@string/title_activity_view_notifictaions" >
+        </activity>
+    </application>
+
+</manifest>
